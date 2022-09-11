@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- ES4 Definire i seguenti elementi: elemento root TEI, elementi figli:
+- header obbligatoria una occorrenza
+- facsimile opzionale una occorrenza
+- text obbligatoria almeno una occorrenza, mixed content con possibile elemento
+
+Aggiungendo attributi:
+- header > type ( fixed, CDATA “intestazione”); lang (opzionale, NMTOKEN)
+- facsimile > source (obbligatorio); ref (opzionale, IDREFS)
+- text > ID (obbligatorio, ID) type (opzionale contenuto testuale) -->
+
+<!DOCTYPE TEI SYSTEM "ES4.dtd">
+
+<TEI>
+    <header type="intestazione" lang="it">Es 4</header>
+    <facsimile source="sorgente" ref="testo1">
+        Elemento facsimile
+    </facsimile>
+    <text id="testo1">Esercizio 4 </text>
+</TEI>

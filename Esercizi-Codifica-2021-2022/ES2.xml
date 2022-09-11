@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!-- ES2 Scrivere e fare il check di un file xml non opportunamente annidato -->
+
+<doc>
+    <tag>
+        <noWell>
+            <noWellNested>
+        </noWell>
+        </noWellNested>
+    </tag>
+</doc>

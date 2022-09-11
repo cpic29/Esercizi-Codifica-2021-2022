@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ES5 marcare un testo plain text di circa 3000 caratteri a piacere, inserire prologo XML, marcare la struttura usando gli elementi fin qui descritti,
+    verificare che sia ben formato con xmllint ( o xerces con domCounter), salvare il file XML su github -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI version="4.4.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MOON KNIGHT, RECENSIONE DEL QUINTO EPISODIO: VIAGGIO DENTRO UNA MENTE FRAMMENTATA</title>
+                <author>MAX BORG</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>movieplayer.it</publisher>
+                <date>27/04/2022</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Born digital: no previous source exists.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div n="1" type="introduzione">
+                <p>Ci siamo quasi: con la recensione di <foreign xml:lang="engl">Moon Knight</foreign> 1x05 arriviamo in prossimità del capolinea per questo esordio del 
+                tormentato personaggio <foreign xml:lang="en">Marvel</foreign> su <foreign xml:lang="en">Disney+</foreign>, e siamo al cospetto dell'episodio che, più di tutti, chiarisce perché per introdurre Marc Spector e il suo 
+                strambo alter ego era più efficace una miniserie anziché un lungometraggio. Il penultimo capitolo, infatti, è quello che più degli altri scava nei recessi 
+                più profondi della mente caotica di Spector, prendendosi dei tempi che il cinema difficilmente avrebbe concesso, soprattutto considerando che finora abbiamo 
+                avuto a che fare con solo due delle molteplici personalità del mercenario (il quarto episodio lascia intendere che ne vedremo una terza, ma a questo punto è 
+                logico ipotizzare che sarà forse solo per porre le basi per il futuro di <foreign xml:lang="en">Moon Knight</foreign> all'interno del <foreign xml:lang="en">Marvel Cinematic Universe</foreign>).
+                </p>
+            </div>
+        </front>
+        <body>
+            <div n="2" type="sezione">
+                <head>Viaggio nell'aldilà</head>
+                <p>Il quarto episodio di <foreign xml:lang="en">Moon Knight</foreign> finiva con Spector in fin di vita, improvvisamente trasportato in una sorta di interregno a forma di ospedale psichiatrico,
+                    con lui e Steven in corpi separati e accolti da Taweret, divinità egizia che protegge le madri e i bambini e ha la testa di un ippopotamo. 
+                    Spetta a lei il compito di traghettarli verso la vita dopo la morte, ma per potervi accedere bisogna pesare i loro cuori su un'apposita bilancia. 
+                    Da lì emerge che le due personalità sono incomplete, e così Marc e Steven cominciano ad andare a ritroso, scoprendo le origini delle personalità multiple
+                     di Spector e come egli sia diventato l'avatar di Khonshu durante una missione in Egitto. Mentre accade tutto questo, Marc ritorna periodicamente 
+                     nell'ufficio del suo "analista" che in realtà è una manifestazione di Arthur Harrow, il quale ha cominciato a mettere in atto il proprio piano nel mondo 
+                     dei vivi. Riusciranno Marc e Steven a raggiungere il giusto compromesso per tornare sulla Terra e sconfiggerlo?
+                </p>
+            </div>
+            <div n="3" type="sezione">
+                <head>Giustizia divina</head>
+                <p>Se nelle nostre recensioni degli episodi precedenti avevamo espresso un po' di scetticismo sulla decisione di affidare i due capitoli conclusivi a 
+                    Mohamed Diab, in questa sede possiamo dichiararci piacevolmente smentiti: il cineasta egiziano, che ha accettato di incontrare la Marvel proprio per 
+                    assicurarsi che la sua cultura fosse rappresentata correttamente sullo schermo, dimostra di aver aspettato questo momento con ansia, tuffandosi nella 
+                    mitologia egizia con gusto, tra Taweret, il Duat e la prova che Spector deve superare per raggiungere la destinazione finale. È un viaggio che mantiene 
+                    la propria identità distinta ma - seppure in modo sottile - allude alla cosmogonia del <foreign xml:lang="en">Marvel Cinematic Universe</foreign>, confermando che esistono varie versioni 
+                    dell'aldilà all'interno del franchise (l'esempio più lampante è quello visto in <foreign xml:lang="en">Black Panther</foreign>, dove T'Challa conversa con i propri antenati). Un aldilà che è
+                     seducente e terrificante, ricollegandosi alla parziale impronta horror di questo progetto, che al netto di alcuni inevitabili momenti di leggerezza è forse 
+                     quello che maggiormente si allontana dalla reputazione scanzonata del mondo cinematografico della Casa delle Idee.
+                    E a contribuire enormemente, in tal senso, è Oscar Isaac, che pur avendo sempre avuto la parte del leone nel corso della miniserie qui è il vero protagonista 
+                    assoluto, relegando il pur valido Ethan Hawke in un angolo (quasi letteralmente) per avere una lunga conversazione con sé stesso (un effetto ottenuto per lo 
+                    più senza CGI o altri trucchi ottici, dato che il fratello minore di Isaac, Mike Hernandez, è anch'egli attore e ha fatto da controfigura per diverse scene 
+                    dove le due identità appaiono insieme). O meglio, in questo caso Taweret si fa valere come personaggio di contorno di tutto rispetto, al contrario di altre 
+                    figure che negli episodi precedenti erano alla stregua delle comparse, ma il fulcro emotivo rimane la doppia performance di Isaac, forse la più struggente in
+                     tutto il franchise per come gli viene dato lo spazio per approfondire le ferite interiori di Marc e i loro effetti devastanti sulla psiche frammentata del 
+                     protagonista. A suo modo, un traguardo importante prima del finale, suggellato anche dal flashback in cui Khonshu dice la frase che ancora non era stata detta
+                     : <q>"Diventa il mio <foreign xml:lang="en">Moon Knight</foreign>."</q> Detto, fatto. E ora si attende la conclusione.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

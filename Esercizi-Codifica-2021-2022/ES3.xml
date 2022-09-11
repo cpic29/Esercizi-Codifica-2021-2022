@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ES3 Correggere il file non opportunamente annidato, aggiungere un figlio e un sibling ad un elemento-->
+<doc>
+    <tag>
+        <well>
+            <child></child>
+        </well>
+        <noWell>
+            <noWellNested></noWellNested> <!-- Chiudere elemento <noWellNested> -->
+        </noWell>
+        <element> <!-- Aggiungo sibling -->
+            <child></child> <!-- Aggiungo figlio -->
+        </element>
+    </tag>
+</doc>

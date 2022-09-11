@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ES6 Trascrivere e codificare un frammento di lettera di Bellini, utilizzando anche gli elementi facsimile-->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI version="4.4.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vincenzo Bellini a Giuditta Turina, Venezia, 24 febbraio 1830</title>
+                <!--formato titolo: mittente a destinatario, in luogo, data di scrittura della lettera -->
+                <author ref="#VB">Vincenzo Bellini</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name ref="#GS">Graziella Seminara</name>
+				</respStmt>
+            </titleStmt>
+			<editionStmt>
+				<edition>Digital Edition
+					<date when="2022">2022</date>
+				</edition>
+				<respStmt>
+					<resp>Encoding by</resp>
+					<name ref="#CP">Chiara Piccolo</name>
+				</respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher>Fondazione Bellini </publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>Catania</settlement>
+                        <idno>LL1.3</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+							<author xml:lang="it" ref="#VB">Vincenzo Bellini</author>
+							<title type="uniform" xml:lang="it">
+								<persName ref="#VB" role="composer">Vincenzo Bellini</persName>
+                                a <persName ref="#GT">Giuditta Turina</persName>, 
+                                a <placeName ref="#MI">Venezia</placeName>,
+                                <date when="1830-02-24" cert="high" resp="#GS">24 febbraio 1830</date>
+							</title>
+							<textLang mainLang="it">italiano di inizio Ottocento</textLang>
+						</msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Carta sottile</material>
+                                </support>
+                                <condition>
+									<p>Lettera in discrete condizioni fisiche, presenta piegature asimettriche.</p>
+								</condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc  hands="1">
+                            <handNote>Il testo è scritto a mano da <persName ref="#VB">Vincenzo Bellini</persName></handNote>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface>
+            <graphic url='cartolina.jpeg' width='1546px' height='2282px' />
+            <zone ulx="311" uly="201" lrx="1491" lry="291" xml:id="l1" />
+            <zone ulx="173" uly="307" lrx="1493" lry="397" xml:id="l2"/>
+            <zone ulx="147" uly="425" lrx="1481" lry="469" xml:id="l3"/>
+            <zone ulx="141" uly="501" lrx="1487" lry="581" xml:id="l4"/>
+            <zone ulx="139" uly="605" lrx="1469" lry="669" xml:id="l5"/>
+            <zone ulx="167" uly="691" lrx="1461" lry="771" xml:id="l6"/>
+            <zone ulx="167" uly="793" lrx="1465" lry="865" xml:id="l7"/>
+            <zone ulx="183" uly="877" lrx="1467" lry="953" xml:id="l8"/>
+            <zone ulx="161" uly="989" lrx="1457" lry="1065" xml:id="l9"/>
+            <zone ulx="155" uly="1091" lrx="1491" lry="1155" xml:id="l10"/>
+            <zone ulx="163" uly="1187" lrx="1493" lry="1247" xml:id="l11"/>
+            <zone ulx="159" uly="1273" lrx="1471" lry="1329" xml:id="l12"/>
+            <zone ulx="157" uly="1359" lrx="1469" lry="1425" xml:id="l13"/>
+            <zone ulx="153" uly="1459" lrx="1453" lry="1513" xml:id="l14"/>
+            <zone ulx="135" uly="1553" lrx="1479" lry="1627" xml:id="l15"/>
+            <zone ulx="125" uly="1659" lrx="1453" lry="1711" xml:id="l16"/>
+        </surface>
+    </facsimile>
+
+    <text type="letter" xml:id="LL1.3" subtype="manuscript" n="LL1.3">
+        <body>
+            <div>
+                <p>
+                <lb facs="#l1"/>Mia cara amica<pc>.</pc> Due sole parole e vi lascio. 
+                <lb facs="#l2"/>La mia salute và bene, ed ho goduto nel senti
+                <lb facs="#l3"/>re da una lettera di <persName ref="#C">Ceriali</persName>, che la vostra salute 
+                <lb facs="#l4"/>và bene, e che vi divertite a valsare col Dotto
+                <lb facs="#l5" break="yes"/>re: così vi voglio. Divertitevi senza abuso<pc>.</pc> Ier
+                <lb facs="#l6" break="yes"/>sera ho cominciate le pruove, ed al <date when="03-09">nove di 
+                <lb facs="#l7" />marzo</date> si spera d’andare in scena. Addio 
+                <lb facs="#l8"/>mia buona amica<pc>.</pc> I saluti al caro <persName ref="#FT">Fer
+                <lb facs="#l9" break="yes"/>dinando</persName><pc>.</pc> L’esser il giorno <date when="03-09">9: di marzo</date> l’o
+                <lb facs="#l10" break="yes"/>nomastico della buona mamma <persName>Francesca</persName>,
+                <lb facs="#l11"/>mi dà delle gran speranze ch’io possa 
+                <lb facs="#l12"/>riuscire. Frattanto ricordatemi a lei,
+                <lb facs="#l13"/>come alla <persName ref="#RT">Rosina</persName>, <persName ref="#BT">Bartolo</persName>, <persName ref="#C">Ceriali</persName>, il 
+                <lb facs="#l14"/>Dottore e tutti di casa<pc>.</pc> Voi ricevete
+                <lb facs="#l15"/>i miei bacia mano e credetemi qual sarò
+                <lb facs="#l16"/>per la vita Vostro affssmo amico
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type="persone_coinvolte">
+                <listPerson>
+                    <person xml:id="VB">
+                        <persName>
+                            <forename>Vincenzo</forename>
+                            <surname>Bellini</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="CP">
+                        <persName>
+                            <forename>Chiara</forename>
+                            <surname>Piccolo</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="GS">
+                        <persName>
+                            <forename>Graziella</forename>
+                            <surname>Seminara</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="GT">
+                        <persName>
+                            <forename>Giuditta</forename>
+                            <surname>Turina</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="RB">
+                        <persName>
+                            <forename>Rosa</forename>
+                            <surname>Bossi</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="BT">
+                        <persName>
+                            <forename>Bartolomeo</forename>
+                            <surname>Turina</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="C">
+                        <persName>
+                            <surname>Ceriali</surname>
+                        </persName>
+                    </person>
+                    <person xml:id="FT">
+                        <persName>
+                            <forename>Ferdinando</forename>
+                            <surname>Turina</surname>
+                        </persName>
+                    </person>
+                </listPerson>
+            </div>
+        </back> 
+    </text>
+</TEI>
